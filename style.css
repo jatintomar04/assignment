@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+    height: auto;
+    width: 100%;
+}
+.container .first-page {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/30dafb9f-6a26-4ecf-aab5-fdb4da38f28d.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    
+}
+.container .first-page h1 {
+    font-size: 60px;
+    color: rgb(31, 190, 211);
+    text-shadow: 2px 2px 5px red
+}
+.second-page {
+    height: 270vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,166,233,1) 2%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%, rgba(26,165,232,0.11825980392156865) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100vh;
+    z-index: 20;
+}
+.second-page h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px red
+   
+}
+
+.container .second-page .first {
+    height: 30%;
+    width: 100%;
+    padding: 40px;
+}
+.container .second-page .first .box {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url(image/1\ carry\ on.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .second-page .second {
+    height: 30%;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.container .second-page .second .box {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url(image/2\ campus.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .second-page .third {
+    height: 30%;
+    width: 100%;
+    padding: 40px;
+}
+.container .second-page .third .box {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url(image/3\ cash.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .second-page .fourth {
+    height: 30%;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.container .second-page .fourth .box {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url(image/4metro.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .second-page .fifth {
+    height: 30%;
+    width: 100%;
+    padding: 40px;
+}
+.container .second-page .fifth .box {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url(image/5texax.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .second-page a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.third-page {
+    height: 270vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,166,233,1) 2%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%, rgba(26,165,232,0.11825980392156865) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100vh;
+    z-index: 20;
+}
+.third-page h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    text-shadow: 2px 2px 5px red
+   
+}
+
+.container .third-page .first {
+    height: 30%;
+    width: 100%;
+    padding: 40px;
+}
+.container .third-page .first .box {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url(image/ui1.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .third-page .second {
+    height: 30%;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.container .third-page .second .box {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url(image/ui2.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .third-page .third {
+    height: 30%;
+    width: 100%;
+    padding: 40px;
+}
+.container .third-page .third .box {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url(image/ui3.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .third-page .fourth {
+    height: 30%;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.container .third-page .fourth .box {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url(image/ui4.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .third-page .fifth {
+    height: 30%;
+    width: 100%;
+    padding: 40px;
+}
+.container .third-page .fifth .box {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url(image/Screenshot\ 2024-08-24\ 143333.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .third-page a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
